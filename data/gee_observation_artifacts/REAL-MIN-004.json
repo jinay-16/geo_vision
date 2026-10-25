@@ -1,0 +1,32 @@
+{
+  "sample_id": "REAL-MIN-004",
+  "event_id": "EVT-MIN-TALEGAON-CIVIL",
+  "module": "mining",
+  "aoi_name": "Talegaon Industrial Park Earthwork Clearing",
+  "coordinates": {
+    "lat": 18.73,
+    "lng": 73.68,
+    "buffer_meters": 700
+  },
+  "observation_window": {
+    "start_year": 2023,
+    "end_year": 2024,
+    "start_month": 1,
+    "end_month": 4
+  },
+  "gee_processing_timestamp": "2026-10-15T10:54:51.821010+00:00",
+  "pipeline_version": "3.4.2-empirical",
+  "evaluation_status": "success",
+  "coverage_and_pixels": {
+    "geometry_area_km2": 1.52,
+    "valid_optical_area_km2": 1.516,
+    "optical_valid_pixel_pct": 99.74,
+    "sar_usable": true
+  },
+  "independent_sensor_predictions": {
+    "s2_optical_only": false,
+    "s1_sar_only": true,
+    "dual_sensor_intersection": false,
+    "quality_aware_adaptive_fusion": true
+  }
+}

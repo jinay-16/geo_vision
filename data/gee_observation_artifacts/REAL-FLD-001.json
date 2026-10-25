@@ -1,0 +1,32 @@
+{
+  "sample_id": "REAL-FLD-001",
+  "event_id": "EVT-FLD-KHADAKWASLA-2024",
+  "module": "flood",
+  "aoi_name": "Khadakwasla Reservoir Shoreline Inundation",
+  "coordinates": {
+    "lat": 18.428,
+    "lng": 73.765,
+    "buffer_meters": 500
+  },
+  "observation_window": {
+    "start_year": 2023,
+    "end_year": 2024,
+    "start_month": 1,
+    "end_month": 4
+  },
+  "gee_processing_timestamp": "2026-10-15T10:51:17.123118+00:00",
+  "pipeline_version": "3.4.2-empirical",
+  "evaluation_status": "success",
+  "coverage_and_pixels": {
+    "geometry_area_km2": 0.78,
+    "valid_optical_area_km2": 0.773,
+    "optical_valid_pixel_pct": 99.1,
+    "sar_usable": true
+  },
+  "independent_sensor_predictions": {
+    "s2_optical_only": false,
+    "s1_sar_only": false,
+    "dual_sensor_intersection": false,
+    "quality_aware_adaptive_fusion": false
+  }
+}

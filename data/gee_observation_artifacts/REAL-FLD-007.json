@@ -1,0 +1,32 @@
+{
+  "sample_id": "REAL-FLD-007",
+  "event_id": "EVT-FLD-MUTHA-RIGHTBANK",
+  "module": "flood",
+  "aoi_name": "Mutha River Right Bank Lowland Buffer",
+  "coordinates": {
+    "lat": 18.51,
+    "lng": 73.82,
+    "buffer_meters": 400
+  },
+  "observation_window": {
+    "start_year": 2023,
+    "end_year": 2024,
+    "start_month": 1,
+    "end_month": 4
+  },
+  "gee_processing_timestamp": "2026-10-15T10:52:29.799637+00:00",
+  "pipeline_version": "3.4.2-empirical",
+  "evaluation_status": "success",
+  "coverage_and_pixels": {
+    "geometry_area_km2": 0.5,
+    "valid_optical_area_km2": 0.495,
+    "optical_valid_pixel_pct": 99.0,
+    "sar_usable": true
+  },
+  "independent_sensor_predictions": {
+    "s2_optical_only": false,
+    "s1_sar_only": false,
+    "dual_sensor_intersection": false,
+    "quality_aware_adaptive_fusion": false
+  }
+}

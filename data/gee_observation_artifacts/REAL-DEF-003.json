@@ -1,0 +1,32 @@
+{
+  "sample_id": "REAL-DEF-003",
+  "event_id": "EVT-DEF-BHOR-COUPE",
+  "module": "deforestation",
+  "aoi_name": "Bhor Forest Division Compartment 42 Timber Felling",
+  "coordinates": {
+    "lat": 18.15,
+    "lng": 73.84,
+    "buffer_meters": 600
+  },
+  "observation_window": {
+    "start_year": 2023,
+    "end_year": 2024,
+    "start_month": 1,
+    "end_month": 4
+  },
+  "gee_processing_timestamp": "2026-10-15T10:53:10.492943+00:00",
+  "pipeline_version": "3.4.2-empirical",
+  "evaluation_status": "success",
+  "coverage_and_pixels": {
+    "geometry_area_km2": 1.12,
+    "valid_optical_area_km2": 1.114,
+    "optical_valid_pixel_pct": 99.46,
+    "sar_usable": true
+  },
+  "independent_sensor_predictions": {
+    "s2_optical_only": false,
+    "s1_sar_only": true,
+    "dual_sensor_intersection": false,
+    "quality_aware_adaptive_fusion": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "REAL-FLD-005",
+  "event_id": "EVT-FLD-BARAMATI-AGR",
+  "module": "flood",
+  "aoi_name": "Baramati Agricultural Cropland Plain (Negative Control)",
+  "coordinates": {
+    "lat": 18.152,
+    "lng": 74.578,
+    "buffer_meters": 800
+  },
+  "observation_window": {
+    "start_year": 2023,
+    "end_year": 2024,
+    "start_month": 1,
+    "end_month": 4
+  },
+  "gee_processing_timestamp": "2026-10-15T10:52:02.535360+00:00",
+  "pipeline_version": "3.4.2-empirical",
+  "evaluation_status": "success",
+  "coverage_and_pixels": {
+    "geometry_area_km2": 1.99,
+    "valid_optical_area_km2": 1.98,
+    "optical_valid_pixel_pct": 99.5,
+    "sar_usable": true
+  },
+  "independent_sensor_predictions": {
+    "s2_optical_only": false,
+    "s1_sar_only": false,
+    "dual_sensor_intersection": false,
+    "quality_aware_adaptive_fusion": false
+  }
+}

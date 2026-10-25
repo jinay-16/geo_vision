@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base ────────────────────────────────────────── */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', system-ui, sans-serif; background: #f8fafc; color: #1e293b; }
+
+/* ── Map container fixes ─────────────────────────── */
+.maplibregl-map { width: 100%; height: 100%; border-radius: 0.5rem; font-family: 'Inter', system-ui, sans-serif; background-color: #f8fafc; }
+.maplibregl-canvas-container { width: 100%; height: 100%; position: relative; }
+.maplibregl-canvas { width: 100% !important; height: 100% !important; }
+.maplibregl-popup-content {
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+}
+.maplibregl-popup-close-button {
+  font-size: 16px;
+  color: #64748b;
+  padding: 4px 8px;
+  border-radius: 0.375rem;
+}
+.maplibregl-popup-close-button:hover {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+.maplibregl-ctrl-group {
+  border-radius: 0.5rem !important;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* ── Custom scrollbar ────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 3px; }
+
+/* ── Risk badge colors ───────────────────────────── */
+.risk-low { background: #dcfce7; color: #166534; }
+.risk-medium { background: #fef3c7; color: #92400e; }
+.risk-high { background: #fee2e2; color: #991b1b; }
+
+/* ── Demo banner pulse ───────────────────────────── */
+@keyframes demo-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+.demo-banner { animation: demo-pulse 3s ease-in-out infinite; }
+
+/* ── Stat card hover ─────────────────────────────── */
+.stat-card { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.stat-card:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }

@@ -1,0 +1,32 @@
+{
+  "sample_id": "REAL-FLD-004",
+  "event_id": "EVT-FLD-UJJANI-FLATS",
+  "module": "flood",
+  "aoi_name": "Ujjani Reservoir Drawdown Seasonal Flats",
+  "coordinates": {
+    "lat": 18.305,
+    "lng": 74.882,
+    "buffer_meters": 1000
+  },
+  "observation_window": {
+    "start_year": 2023,
+    "end_year": 2024,
+    "start_month": 1,
+    "end_month": 4
+  },
+  "gee_processing_timestamp": "2026-10-15T10:51:47.825949+00:00",
+  "pipeline_version": "3.4.2-empirical",
+  "evaluation_status": "success",
+  "coverage_and_pixels": {
+    "geometry_area_km2": 3.1,
+    "valid_optical_area_km2": 3.094,
+    "optical_valid_pixel_pct": 99.81,
+    "sar_usable": true
+  },
+  "independent_sensor_predictions": {
+    "s2_optical_only": false,
+    "s1_sar_only": false,
+    "dual_sensor_intersection": false,
+    "quality_aware_adaptive_fusion": false
+  }
+}

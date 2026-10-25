@@ -1,0 +1,32 @@
+{
+  "sample_id": "REAL-MIN-005",
+  "event_id": "EVT-MIN-URULI-REGRADE",
+  "module": "mining",
+  "aoi_name": "Uruli Devachi Biomining & Ground Reprofiling",
+  "coordinates": {
+    "lat": 18.465,
+    "lng": 73.965,
+    "buffer_meters": 500
+  },
+  "observation_window": {
+    "start_year": 2023,
+    "end_year": 2024,
+    "start_month": 1,
+    "end_month": 4
+  },
+  "gee_processing_timestamp": "2026-10-15T10:55:02.145115+00:00",
+  "pipeline_version": "3.4.2-empirical",
+  "evaluation_status": "success",
+  "coverage_and_pixels": {
+    "geometry_area_km2": 0.78,
+    "valid_optical_area_km2": 0.774,
+    "optical_valid_pixel_pct": 99.23,
+    "sar_usable": true
+  },
+  "independent_sensor_predictions": {
+    "s2_optical_only": true,
+    "s1_sar_only": true,
+    "dual_sensor_intersection": true,
+    "quality_aware_adaptive_fusion": true
+  }
+}
