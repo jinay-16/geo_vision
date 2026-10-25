@@ -1,0 +1,85 @@
+# GeoVision AI — Git Ignore Rules
+# Strictly prevents credentials, keys, environments, and large binaries from being committed.
+
+# Environment variables & local configuration
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Google Cloud & Earth Engine Credentials & Private Keys
+*credentials*.json
+*service_account*.json
+*service-account*.json
+*.pem
+*.key
+*.p12
+credentials.json
+client_secrets.json
+
+# Python virtual environment and bytecode
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Frontend dependencies & build
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+*.local
+
+# Geospatial raster caches & large binary datasets
+*.tif
+*.tiff
+*.geotiff
+*.h5
+*.nc
+*.zip
+*.tar.gz
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testing, caches & scratch scripts
+.pytest_cache/
+.coverage
+htmlcov/
+scratch/
+test_bundle.mjs
+frontend/test_bundle.mjs
+frontend/test_render.js
+*(1).csv
+* (1).csv
+
+# Local runtime data residue (preserve local file, exclude from git)
+data/user_reference_cases.json
